@@ -1,0 +1,3 @@
+Aiden Chang
+I've finished installing Kali in VirtualBox on my own computer
+Hopefully thats what you meant by my plan for using Kali
