@@ -1,0 +1,20 @@
+Aiden Chang
+CS231
+
+1.  "ipconfig getifaddr en1" for Ethernet IP and  "ipconfig getifaddr en0" for wireless connection IP
+
+2. In the command line type "ping hostname"
+
+3. In the command line type "host ipadress"
+
+4. scp FILE USER@SERVER_IP:/DIRECTORY or nc receiving.host.com port < file_name
+
+5. lsof -nP -iTCP -sTCP:LISTEN | grep <port-number>
+
+6. nmap hostname
+
+7. curl url >> directory
+
+8. wget -d url
+
+9. wget -d --header="whatever you want it to be" url
