@@ -9,6 +9,7 @@ CS231
 
 4. scp FILE USER@SERVER_IP:/DIRECTORY or nc receiving.host.com port < file_name
 
+
 5. lsof -nP -iTCP -sTCP:LISTEN | grep <port-number>
 
 6. nmap hostname
