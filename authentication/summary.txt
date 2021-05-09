@@ -1,0 +1,17 @@
+Part1
+Passwords cracked: 2326
+Total time: 35:05:09.49
+Number of hashes computed: 71690598001
+Passwords cracked per number of hashes computed: 0.00000003244
+Time per password cracked: 54.3
+
+Part2
+Passwords cracked: 2326
+Total time: 0
+Number of hashes computed: 0 
+Passwords cracked per number of hashes computed: 0
+Time per password cracked: 0
+
+Since every hash as an individual salt used to create the hash, we will need to add the salt to all the password combinations from part1 to find out the correct hash.
+Therefore we need to compute part1 for every single user-password combination. This gives us an estimate of 81609 hr 38 min 54 sec for calculating, and around 166,752,330,950,326 hashes to calculate.
+This is the number time and number of hashes computed in part1 increased by a factor of 2326(which is the number of how many hashed salted passwords). Which will be the same factor and explanation for time per password. 
